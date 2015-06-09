@@ -1,0 +1,32 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#define tableNameOfWorldCup             @"wordOfWorldCup"//世界杯表名
+#define tableNameOfEntertainment        @"wordOfEntertainment"//娱乐圈表名
+#define tableNameOfHardcore             @"wordOfHardcore"//重口味表名
+#define tableNameOfFriend               @"wordOfFriend"//朋友表名
+#define tableNameOfSchoolyard           @"wordOfSchoolyard"//校园表名
+#define tableNameOfFamily               @"wordOfFamily"//家庭表名
+#define tableNameOfMyWord               @"wordOfMyWord"//我的词库表名
+#define tableNameOfPartysu              @"wordOfPartysu"//小清新
+
+#define identifier                      @"reuseIdentifier"
+#define myWordCellIdentifier            @"reuse"
+#define grouptableCell                  @"cellReuse"
+
+#define locaX                         self.view.bounds.size.width
+#define locaY                         self.view.bounds.size.height
